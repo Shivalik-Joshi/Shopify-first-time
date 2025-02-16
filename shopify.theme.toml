@@ -1,0 +1,2 @@
+[environments.development]
+store = "https://test-brand-store1.myshopify.com/"
