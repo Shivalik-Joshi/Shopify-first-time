@@ -63,6 +63,20 @@
             "content": "<p>{{ product.metafields.models.model_info.value.name.value }} is {{ product.metafields.models.model_info.value.height | metafield_tag }} and wearing size {{ product.metafields.model.wearing_size.value }}.</p><p>{{ product.metafields.models.model_info.value.name.value }}'s measurements:</p><ul><li>Bust: {{ product.metafields.models.model_info.value.bust | metafield_tag }}</li><li>Waist: {{ product.metafields.models.model_info.value.waist | metafield_tag }}</li><li>Hips: {{ product.metafields.models.model_info.value.hip | metafield_tag }}</li></ul>",
             "page": ""
           }
+        },
+        "subscriptions_app_block_DW8FpG": {
+          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
+          "settings": {
+            "color_text_title": "#6D7175",
+            "color_text_body": "#6D7175",
+            "dividers_color": "#8f8e8d",
+            "bacgkround_color": "#ffffff",
+            "border_thickness": 1,
+            "border_radius": 4,
+            "supporting_text_title": "Purchase options",
+            "subscription_policy_url": "shopify://policies/privacy-policy",
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
@@ -74,7 +88,8 @@
         "buy_buttons",
         "description",
         "share",
-        "collapsible_tab_e4z9rd"
+        "collapsible_tab_e4z9rd",
+        "subscriptions_app_block_DW8FpG"
       ],
       "settings": {
         "enable_sticky_info": true,
